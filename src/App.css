@@ -13,14 +13,14 @@
   }
 }
 
-.App-header {
+.App{
   background-color: #282c34;
   min-height: 100vh;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 2vmin); */
   color: white;
 }
 
@@ -35,4 +35,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button{
+  padding: 10px;
+  margin: 20px;
+  cursor :grab;
 }
